@@ -1,0 +1,23 @@
+body {
+    background-color: #EDDDD0;
+}
+/* Header styling */
+.index-h1, h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #334259;
+}
+
+header {
+    background-color: #a6cad4;
+    text-align: center;
+}
+
+.list-style {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding: 5px;
+}

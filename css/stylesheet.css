@@ -1,8 +1,10 @@
 body {
     background-color: #EDDDD0;
 }
+
 /* Header styling */
-.index-h1, h1 {
+h1 {
+    /* Changed the font of all h1 elements to match*/
     font-family: "Montserrat", sans-serif;
     color: #334259;
 }
@@ -20,4 +22,10 @@ header {
 
 li {
     padding: 5px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #a6cad4;
+    text-align: center;
 }

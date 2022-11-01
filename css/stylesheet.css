@@ -14,21 +14,6 @@ header {
     text-align: center;
 }
 
-/* Course card Styling */
-
-.course-card1 {
-    border-bottom: 2px solid ghostwhite;
-}
-
-.course-card2 {
-    border-bottom: 2px solid ghostwhite;
-    margin-top: 5px;
-}
-
-.course-card3 {
-    margin-top: 5px;
-}
-
 /* List styling */
 .list-style {
     list-style: none;
@@ -41,6 +26,20 @@ li {
 
 a:hover {
     color: #db504a;
+}
+
+/* Course card Styling */
+.course-card1 {
+    border-bottom: 2px solid ghostwhite;
+}
+
+.course-card2 {
+    border-bottom: 2px solid ghostwhite;
+    margin-top: 10px;
+}
+
+.course-card3 {
+    margin-top: 10px;
 }
 
 /* Grid Styling */

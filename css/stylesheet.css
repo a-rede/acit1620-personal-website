@@ -14,7 +14,7 @@ header {
     text-align: center;
 }
 
-/* Courses Styling */
+/* Course card Styling */
 .course-card1 {
     border-bottom: 2px solid black;
 }
@@ -89,6 +89,7 @@ footer {
         text-align: center;
     }
 
+    /* List styling */
     .list-style {
         list-style: none;
         display: flex;
@@ -103,17 +104,22 @@ footer {
         color: #db504a;
     }
 
+    /* Course Card styling */
     .grid-container2 {
         display: grid;
         grid-template-columns: 1fr 3fr;
-        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 0.5fr 0.5fr;
     }
 
     .semester {
-        grid-row: 3/4;
+        grid-row: 2/3;
     }
 
-    /* Grid Styling */
+    .course-description {
+        margin-left: 100px;
+    }
+
+    /* General grid content styling */
     .grid-container {
         display: grid;
         grid-template-columns: 75% 25%;

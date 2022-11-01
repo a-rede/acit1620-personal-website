@@ -57,3 +57,9 @@ footer {
     background-color: #a6cad4;
     text-align: center;
 }
+
+@media screen and (min-width: 600px) {
+    body {
+        display: flex;
+    }
+}

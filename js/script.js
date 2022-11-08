@@ -20,4 +20,4 @@ const courseList = [course1, course2, course3]
 //Input is invalid if input is a string or less than a 4 digit value
 do {
     input = prompt('Enter a 4-digit number: ')
-} while (input.length < 4 || isNaN(Number(input)))
+} while (input.length != 4 || isNaN(Number(input)))

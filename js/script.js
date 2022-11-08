@@ -14,4 +14,10 @@ let course3 = {
     name: 'Introduction to Systems Administration'
 }
 
-const courseList = [course1]
+const courseList = [course1, course2, course3]
+
+//Prompting user for input, checking to see if input is invalid
+//Input is invalid if input is a string or less than a 4 digit value
+do {
+    input = prompt('Enter a 4-digit number: ')
+} while (input.length < 4 || isNaN(Number(input)))

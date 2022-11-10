@@ -16,8 +16,8 @@ let course3 = {
 
 const courseList = [course1, course2, course3]
 
-//Prompting user for input, checking to see if input is invalid
-//Input is invalid if input is a string or less than a 4 digit value
+//Prompting user for a 4-digit input, checks if the input is invalid
+//Input is invalid if it is a string or is not a 4-digit value
 let input = '';
 do {
     input = prompt('Enter a 4-digit number: ')
@@ -32,6 +32,7 @@ for (let course of courseList) {
     }
 }
 
+//If statement checks the flagState and allows us to add any excluded and valid inputs to the courseList array
 if (flagState == false) {
     courseList.push({ code: input, name: null })
     console.log(`${input} has successfully been added.`)
